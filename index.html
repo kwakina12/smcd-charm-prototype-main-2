@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>charm prototype</title>
+    <link rel="stylesheet" href="./style/style.css" />
+    <script src="./script/svgControl.js" defer></script>
+  </head>
+  <body>
+    <div class="viewport">
+      <div class="grid">
+        <div class="button-wrapper button-wrapper-left">
+          <div class="button button-left button-top">&lt;top</div>
+          <div class="button button-left button-mid">&lt;mid</div>
+          <div class="button button-left button-bot">&lt;bot</div>
+        </div>
+        <div class="charm-container">
+          <div class="charm charm-top"></div>
+          <div class="charm charm-mid"></div>
+          <div class="charm charm-bot"></div>
+        </div>
+        <div class="button-wrapper button-wrapper-right">
+          <div class="button button-right button-top">top&gt;</div>
+          <div class="button button-right button-mid">mid&gt;</div>
+          <div class="button button-right button-bot">bot&gt;</div>
+        </div>
+      </div>
+      <div>
+        <input type="range" id="control-strk-w" min="0" max="1" step="any" />
+        <label for="control-strk-w">획 두께</label>
+      </div>
+    </div>
+  </body>
+</html>
